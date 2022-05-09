@@ -9,7 +9,7 @@ btnNum.addEventListener("click", () => {
       console.log("El numero ingresado es cero");
       break;
 
-    case numIngresado:
+    default:
       console.log("El numero ingresado es par", numIngresado % 2 === 0);
       break;
   }
